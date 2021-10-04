@@ -1,0 +1,19 @@
+.logo{
+    font-family: 'Rubik Beastly', cursive;
+    margin-top: 1rem;
+    color: lightpink;
+}
+
+.footer_button{
+    font-size: .9rem;
+}
+
+.footer{
+    text-align:center;
+    margin-top: 2rem;
+}
+
+.header{
+    text-align:center;
+    margin: 2rem 0;
+}
