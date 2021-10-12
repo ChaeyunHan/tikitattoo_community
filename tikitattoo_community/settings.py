@@ -36,6 +36,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# 이걸로 돌릴 땐 python manage.py runserver 0.0.0.0:8000
+#ALLOWED_HOSTS = ['220.116.166.15']
+
 
 # Application definition
 
