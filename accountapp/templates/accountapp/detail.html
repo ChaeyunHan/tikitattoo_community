@@ -9,7 +9,7 @@
       {% if target_user.profile %}
       <img src="{{ target_user.profile.image.url }}" alt=""
            style="height: 12rem; width: 12rem; border-radius: 20rem; margin-bottom: 2rem; object-fit: cover;">
-      <h2 style="font-family: 'NanumSquareRoundOTFB'">
+      <h2 style="font-family: 'NEXON Lv1 Gothic OTF'">
         {{ target_user.profile.nickname }}
           {% if target_user == user %}
           <a class="material-icons" style="box-shadow: 0 0 4px #fcc; border-radius: 10rem; padding: .4rem;" 
@@ -24,7 +24,7 @@
       {% else %}
         {% if target_user == user %}
         <a href="{% url 'profileapp:create' %}">
-          <h2 style="font-family: 'NanumSquareRoundOTFB'">
+          <h2 style="font-family: 'NEXON Lv1 Gothic OTF'">
             Create Profile
           </h2>
         </a>

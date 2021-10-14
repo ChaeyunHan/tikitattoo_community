@@ -4,27 +4,27 @@
     </div>
     <div class="header_navbar">
         <a href="{% url 'articleapp:list' %}" class="header_nav">
-            <span>Articles</span>
+            <span>피드</span>
         </a>
         <a href="{% url 'projectapp:list' %}" class="header_nav">
-            <span>Projects</span>
+            <span>모아보기</span>
         </a>
         <a href="{% url 'subscribeapp:list' %}" class="prgmatic_header_nav">
-            <span>Subscription</span>
+            <span>구독</span>
         </a>
         {% if not user.is_authenticated %}
         <a href="{% url 'accountapp:login' %}?next={{ request.path }}" class="header_nav">
-            <span>login</span>
+            <span>로그인</span>
         </a>
         <a href="{% url 'accountapp:create' %}" class="header_nav">
-            <span>SignUp</span>
+            <span>회원가입</span>
         </a>
         {% else %}
         <a href="{% url 'accountapp:detail' pk=user.pk %}" class="header_nav">
-            <span>MyPage</span>
+            <span>마이페이지</span>
         </a>
         <a href="{% url 'accountapp:logout' %}?next={{ request.path }}" class="header_nav">
-            <span>logout</span>
+            <span>로그아웃</span>
         </a>
         {% endif %}
     </div>

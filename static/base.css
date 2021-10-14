@@ -9,6 +9,7 @@
 }
 
 .footer{
+    font-family: NEXON Lv1 Gothic OTF;
     text-align:center;
     margin-top: 2rem;
 }
@@ -40,5 +41,6 @@ a:hover {
 }
 
 .header_navbar {
+    font-family: NEXON Lv1 Gothic OTF;
     margin: 1rem 0;
 }
